@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+	 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>Threes Ripoff</title>
+	<link rel="stylesheet" type="text/css" href="threes.css"/>
+</head>
+<body>
+	<h1>Threes Ripoff</h1>
+	<div id="first">
+		<span name="box" id="1">0</span>
+		<span name="box" id="2" onClick="moveUp()">0</span>
+		<span name="box" id="3" onClick="moveUp()">0</span>
+		<span name="box" id="4">0</span>
+	</div>
+	<div id="second">
+		<span name="box" id="5" onClick="moveLeft()">0</span>
+		<span name="box" id="6">0</span>
+		<span name="box" id="7">0</span>
+		<span name="box" id="8" onClick="moveRight()">0</span>
+	</div>
+	<div id="third">
+		<span name="box" id="9" onClick="moveLeft()">0</span>
+		<span name="box" id="10">0</span>
+		<span name="box" id="11">0</span>
+		<span name="box" id="12" onClick="moveRight()">0</span>
+	</div>
+	<div id="fourth">
+		<span name="box" id="13">0</span>
+		<span name="box" id="14" onClick="moveDown()">0</span>
+		<span name="box" id="15" onClick="moveDown()">0</span>
+		<span name="box" id="16">0</span>
+	</div>
+	<h1 id="score"></h1>
+	<div id="btns">
+		<span name="btn" id="next" value=0>Next Color</span>
+		<span name="btn" onClick="reset()">Start over?</span>
+	</div>
+	<div id="copyright">"copyright" Aaron Nozaki</div>
+	<script src="threes.js"></script>
+</body>
